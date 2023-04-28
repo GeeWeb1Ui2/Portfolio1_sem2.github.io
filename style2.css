@@ -1,0 +1,128 @@
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #111;
+    color: #eee;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #eee;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #c9c9c9;
+  }
+  
+  header {
+    background-color: #444;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    color: #eee;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+  }
+  
+  .project {
+    background-color: #333;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    margin: 1rem;
+    overflow: hidden;
+    position: relative;
+    width: calc(33.33% - 2rem);
+  }
+  
+  .project:hover img {
+    transform: scale(1.1);
+  }
+  
+  .project img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+    width: 100%;
+  }
+  
+  .project h2 {
+    color: #eee;
+    font-size: 2rem;
+    margin: 1rem;
+  }
+  
+  .project p {
+    color: #ccc;
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  
+  .project a {
+    background-color: #c9c9c9;
+    color: #111;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .project a:hover {
+    background-color: #eee;
+    color: #111;
+  }
+  
+  nav {
+    margin: 2rem auto;
+    text-align: center;
+  }
+  nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline-block;
+    margin: 0;
+    background: none;
+  }
+  nav a {
+    background-color: #c9c9c9;
+    color: #111;
+    display: block;
+    font-size: 1.5rem;
+    height: 3rem;
+    line-height: 2.5rem;
+    margin: 0 2.5rem;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+    width: 6.5rem;
+  }
+  nav a:hover {
+    background-color: #eee;
+    color: #545454;
+  }
+  footer {
+    background-color: #444;
+    box-shadow: 0 -0.5rem 1rem rgba(0,0,0,0.1);
+    color: #eee;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
